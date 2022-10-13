@@ -165,14 +165,132 @@
        <embed type="image/jpg" src="images/Subhan.jpeg" width="300" height="200"><br><br>
         <iframe width="300" height="200"
             src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-        </iframe>
-        <!-- <object 
-            type="application/pdf"
-            data="/media/examples/In-CC0.pdf"
-            width="250"
-            height="200">
-        </object> -->
-        
+        </iframe><br>
+        <svg width="150" height="150">
+            <circle cx="70" cy="70" r="50" stroke="blue" stroke-width="3" fill="pink" />
+        </svg><br>
+        <math display="block">
+            <mrow>
+              <munderover>
+                <mo>∑</mo>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>=</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mrow>
+                  <mo>+</mo>
+                  <mn>∞</mn>
+                </mrow>
+              </munderover>
+              <mfrac>
+                <mn>1</mn>
+                <msup>
+                  <mi>n</mi>
+                  <mn>2</mn>
+                </msup>
+              </mfrac>
+            </mrow>
+          </math>
+          <canvas width="100" height="100" style="background-color: yellow;">
+            An alternative text describing what your canvas displays.
+          </canvas> 
+          <noscript>
+            <a href="https://www.mozilla.org/">This is External Link</a>
+          </noscript>
+          <script src="text/script.js"></script> 
+          <table border="1" cellspacing="5px" cellpadding="5px" width="35%">
+              <caption>He-Man and Skeletor facts</caption>
+              <thead>
+                <th>Month</th>
+                <th>Savings</th>
+              </thead>
+            <tr>
+              <td>Feburay</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$200</td>
+              </tr>
+              <tr>
+                <td>March</td>
+                <td>$300</td>
+              </tr>
+              <tfoot>
+                <td>Total</td>
+                <td>Amount</td>  
+              </tfoot>
+          </table><br><br>
+          <form action="api.php?action=save">
+            <label>Full Name</label><br>
+            <input type="text" name="fname" id=""><br>
+            <label>Password</label><br>
+            <input type="password" name="fname" id=""><br>
+            <label>Age</label><br>
+            <input type="number" name="fname" id="" max="40" min="15"><br>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+            <label for="">Message</label>
+            <textarea name="message" rows="10" cols="30">
+                
+            </textarea><br><br>
+            <label for="">Gender</label><br>
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+            <input type="radio" name="gender" id="">Other<br><br>
+            <label for="ice-cream-choice">Choose a flavor:</label>
+            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+
+            <datalist id="ice-cream-flavors">
+                <option value="Chocolate">
+                <option value="Coconut">
+                <option value="Mint">
+                <option value="Strawberry">
+                <option value="Vanilla">
+            </datalist><br><br>
+            <fieldset>
+                <legend>Choose your Gender</legend>
+                <input type="radio" name="gender" id="">Male
+                <input type="radio" name="gender" id="">Female
+                <input type="radio" name="gender" id="">Other
+            </fieldset><br><br>
+            <button type="submit">Submit</button><br><br>
+            <label for="html">HTML SKILL</label>
+            <progress id="html" max="100" value="70"> 70% </progress><br><br>
+            <label for="dino-select">Choose a dinosaur:</label>
+            <select id="dino-select">
+                <optgroup label="Theropods">
+                    <option>Tyrannosaurus</option>
+                    <option>Velociraptor</option>
+                    <option>Deinonychus</option>
+                </optgroup>
+                <optgroup label="Sauropods">
+                    <option>Diplodocus</option>
+                    <option>Saltasaurus</option>
+                    <option>Apatosaurus</option>
+                </optgroup>
+            </select>
+
+            
+          </form>
+          <details>
+            <summary>Details</summary>
+            Something small enough to escape casual notice.
+        </details><br><br>
+        <marquee
+                direction="down"
+                width="250"
+                height="200"
+                behavior="alternate"
+                style="border: 3px solid blue">
+        <marquee behavior="alternate"> This text will bounce </marquee>
+      </marquee>
         
     </body>
 </html>
